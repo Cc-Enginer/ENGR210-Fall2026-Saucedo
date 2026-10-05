@@ -74,14 +74,3 @@ if __name__ == "__main__":
     plt.ylabel("Error")
     plt.title("3 point Derivative Error")
     plt.show()
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    

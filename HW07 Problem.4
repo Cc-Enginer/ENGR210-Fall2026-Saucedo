@@ -1,0 +1,35 @@
+#HW07 problem 4
+import numpy as np
+
+# Coefficient matrix
+
+A = np.array([
+
+    [1, -1, 2, -1],
+
+    [2, -2, 3, -3],
+
+    [1, 1, 1, 0],
+
+    [1, -1, 4, 3]
+
+], dtype=float)
+
+# Right-hand side
+
+b = np.array([-8, -20, -2, 4], dtype=float)
+
+# Solve the system of equations
+
+x = np.linalg.solve(A, b)
+
+# Display the answers
+
+print("x1 =", x[0])
+
+print("x2 =", x[1])
+
+print("x3 =", x[2])
+
+print("x4 =", x[3])
+
